@@ -1,0 +1,5 @@
+break *main+97
+disable $bpnum
+break *_dl_fixup
+disable $bpnum
+
